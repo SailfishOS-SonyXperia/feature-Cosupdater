@@ -4,7 +4,7 @@
 # For example project foobar with subproject bar this would be 'foobar:/bar'.
 
 %if 0%{!?featureOrg:1}
-%global featureOrg sony:/kumano:/features:/cosupdateservice
+%global featureOrg hw:/sony:/kumano:/features:/cosupdateservice
 %endif
 
 Name: feature-cosupdateservice
